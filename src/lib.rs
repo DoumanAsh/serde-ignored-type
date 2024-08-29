@@ -6,6 +6,7 @@
 //!
 //!Unfortunately serde interface is too dumb to just skip next value
 
+#![no_std]
 #![warn(missing_docs)]
 #![allow(clippy::style)]
 
