@@ -1,0 +1,19 @@
+[package]
+name = "serde_ignored_type"
+version = "1.0.0"
+authors = ["Douman <douman@gmx.se>"]
+edition = "2018"
+repository = "https://github.com/DoumanAsh/serde_ignored_type"
+license = "BSL-1.0"
+readme = "README.md"
+include = [
+    "**/*.rs",
+    "Cargo.toml",
+    "README.md"
+]
+description = "Simple utility type to allow to skip value for purpose of deserialization"
+keywords = ["serde"]
+
+[dependencies.serde]
+version = "1"
+default-features = false
